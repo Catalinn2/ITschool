@@ -1,3 +1,4 @@
+package session2;
 
 public class Main {
 
@@ -7,5 +8,8 @@ public class Main {
         //this is a comment from main  branch
 
 
+    }
+
+    public static class Animals {
     }
 }
