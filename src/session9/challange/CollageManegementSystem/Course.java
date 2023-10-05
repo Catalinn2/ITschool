@@ -1,15 +1,13 @@
 package session9.challange.CollageManegementSystem;
 
-import java.time.LocalDate;
-
 public class Course {
     private String courseName;
-    private LocalDate schedule;
+    private String schedule;
     private int duration;
     private String description;
     private Proffesor proffesor;
 
-    public Course(String courseName, LocalDate schedule, int duration, String description, Proffesor proffesor) {
+    public Course(String courseName, String schedule, int duration, String description, Proffesor proffesor) {
         this.courseName = courseName;
         this.schedule = schedule;
         this.duration = duration;
@@ -21,7 +19,7 @@ public class Course {
         return courseName;
     }
 
-    public LocalDate getSchedule() {
+    public String getSchedule() {
         return schedule;
     }
 
@@ -35,5 +33,25 @@ public class Course {
 
     public Proffesor getProffesor() {
         return proffesor;
+    }
+
+    public void setCourseName(String courseName) {
+        this.courseName = courseName;
+    }
+
+    public void setSchedule(String schedule) {
+        this.schedule = schedule;
+    }
+
+    public void setDuration(int duration) {
+        this.duration = duration;
+    }
+
+    public void setDescription(String description) {
+        this.description = description;
+    }
+
+    public void setProffesor(Proffesor proffesor) {
+        this.proffesor = proffesor;
     }
 }
