@@ -10,16 +10,28 @@ public class Student {
     private LocalDate dayOfBirth;
     private String gender;
     private String CNP;
-    private String Adress;
+    private String adress;
 
-    public Student(String firstName, String lastName, int age, LocalDate dayOfBirth, String gender, String CNP, String adress) {
+    public Student(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
+    }
+
+    public void setAdress(String adress) {
+        this.adress = adress;
+    }
+
+    public void setDayOfBirth(LocalDate dayOfBirth) {
         this.dayOfBirth = dayOfBirth;
+    }
+
+    public void setGender(String gender) {
         this.gender = gender;
+    }
+
+    public void setCNP(String CNP) {
         this.CNP = CNP;
-        Adress = adress;
     }
 
     public String getFirstName() {
@@ -47,6 +59,6 @@ public class Student {
     }
 
     public String getAdress() {
-        return Adress;
+        return adress;
     }
 }

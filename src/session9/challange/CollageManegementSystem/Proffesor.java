@@ -13,16 +13,27 @@ public class Proffesor {
 
 
 
-    public Proffesor(String firstName, String lastName, int age, LocalDate dayOfBirth, String gender, String CNP, String adress) {
+    public Proffesor(String firstName, String lastName, int age) {
         this.firstName = firstName;
         this.lastName = lastName;
         this.age = age;
-        this.dayOfBirth = dayOfBirth;
-        this.gender = gender;
-        this.CNP = CNP;
-        Adress = adress;
     }
 
+    public void setDayOfBirth(LocalDate dayOfBirth) {
+        this.dayOfBirth = dayOfBirth;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public void setCNP(String CNP) {
+        this.CNP = CNP;
+    }
+
+    public void setAdress(String adress) {
+        Adress = adress;
+    }
 
     public String getFirstName() {
         return firstName;
