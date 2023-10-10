@@ -2,12 +2,12 @@ package session11.practice.vehicle_example;
 
 public abstract class Vehicle {
 
-        int speed;
+    int speed;
 
-        abstract void accelerate();
+    abstract void accelerate();
 
-        abstract void brake();
+    abstract void brake();
 
-        void retractableHood{};
+    // abstract void retractableHood();
 
 }
