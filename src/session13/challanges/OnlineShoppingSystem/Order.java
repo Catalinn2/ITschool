@@ -11,6 +11,13 @@ public class Order {
     private String orderStatus = "Processing.";
 
 
+    public String orderInfo() {
+        return "Order{" +
+                "orderNumber=" + orderNumber +
+                ", orderStatus='" + orderStatus + '\'' +
+                '}';
+    }
+
     public void costumerInfo() {
         System.out.println("Name : " + costumer.getName());
         System.out.println("Email : " + costumer.getEmail());

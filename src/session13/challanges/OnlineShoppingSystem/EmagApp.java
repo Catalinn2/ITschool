@@ -10,6 +10,9 @@ public class EmagApp {
         System.out.println(product1.displayProductInfo());
         Costumer costumer1 = new Costumer("Max" , "max11@gmail.com" , "Munchen, Boschstrasse 8", "Munchen, Boschstrasse 8");
         costumer1.addToCart(product1, 2);
+        product2.displayProductInfo();
+        costumer1.placeOrder();
+
 
     }
 }
