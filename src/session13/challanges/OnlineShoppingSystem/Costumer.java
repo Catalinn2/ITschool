@@ -8,13 +8,13 @@ public class Costumer {
     String email;
     String shippingAddress;
     String billingAddress;
-    ArrayList<Product> shoppingCart;
-    ArrayList<Order> orderHistory;
+    ArrayList<Product> shoppingCart = new ArrayList<>();
+    ArrayList<Order> orderHistory = new ArrayList<>();
 
 
     public void placeOrder(){
         Order order = new Order(this, shoppingCart);
-        orderHistory.add(placeOrder());
+        orderHistory.add(order);
         shoppingCart.clear();
         System.out.println("Order placed succesfully");
     }
