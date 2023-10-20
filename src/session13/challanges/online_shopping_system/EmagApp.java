@@ -1,4 +1,4 @@
-package session13.challanges.OnlineShoppingSystem;
+package session13.challanges.online_shopping_system;
 
 public class EmagApp {
 
@@ -8,10 +8,11 @@ public class EmagApp {
         Product product2 = new Product("Mug", "A cool way to drink your beer", 6.99, 35);
         product1.checkIfInStock();
         System.out.println(product1.displayProductInfo());
-        Costumer costumer1 = new Costumer("Max" , "max11@gmail.com" , "Munchen, Boschstrasse 8", "Munchen, Boschstrasse 8");
+        Costumer costumer1 = new Costumer("Max", "max11@gmail.com", "Munchen, Boschstrasse 8", "Munchen, Boschstrasse 8");
         costumer1.addToCart(product1, 2);
         product2.displayProductInfo();
-        costumer1.placeOrder();
+        Order order = costumer1.placeOrder();
+        System.out.println("Order number" + order.getOrderNumber());
 
 
     }

@@ -1,4 +1,4 @@
-package session13.challanges.OnlineShoppingSystem;
+package session13.challanges.online_shopping_system;
 
 import java.util.ArrayList;
 
@@ -12,11 +12,12 @@ public class Costumer {
     ArrayList<Order> orderHistory = new ArrayList<>();
 
 
-    public void placeOrder(){
+    public Order placeOrder(){
         Order order = new Order(this, shoppingCart);
         orderHistory.add(order);
         shoppingCart.clear();
         System.out.println("Order placed succesfully");
+        return order;
     }
 
 

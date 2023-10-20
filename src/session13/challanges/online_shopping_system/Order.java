@@ -1,4 +1,4 @@
-package session13.challanges.OnlineShoppingSystem;
+package session13.challanges.online_shopping_system;
 
 import java.util.ArrayList;
 

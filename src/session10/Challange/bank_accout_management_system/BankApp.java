@@ -1,4 +1,4 @@
-package session10.Challange.BankAccountManagementSystem;
+package session10.Challange.bank_accout_management_system;
 
 public class BankApp {
 
