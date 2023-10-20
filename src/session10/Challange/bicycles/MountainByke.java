@@ -1,4 +1,4 @@
-package session10.Challange.Bicycles;
+package session10.Challange.bicycles;
 
 public class MountainByke extends Bicycle {
 

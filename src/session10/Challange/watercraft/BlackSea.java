@@ -1,4 +1,4 @@
-package session10.Challange.Watercraft;
+package session10.Challange.watercraft;
 
 public class BlackSea {
     public static void main(String[] args) {

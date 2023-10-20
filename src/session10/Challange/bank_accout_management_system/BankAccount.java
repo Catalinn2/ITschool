@@ -1,6 +1,5 @@
-package session10.Challange.BankAccountManagementSystem;
+package session10.Challange.bank_accout_management_system;
 
-import javax.sound.midi.Soundbank;
 import java.util.UUID;
 
 public class BankAccount {

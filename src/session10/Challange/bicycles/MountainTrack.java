@@ -1,4 +1,4 @@
-package session10.Challange.Bicycles;
+package session10.Challange.bicycles;
 
 public class MountainTrack {
     public static void main(String[] args) {

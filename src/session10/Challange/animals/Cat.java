@@ -1,4 +1,4 @@
-package session10.Challange.Animals;
+package session10.Challange.animals;
 
 public class Cat extends Animal{
     @Override
